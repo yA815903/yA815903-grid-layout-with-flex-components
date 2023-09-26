@@ -39,12 +39,13 @@ body {
     grid-template-areas: 
     "keys brace"
     "mask note";
+    gap: 10px;
   }
-  .emoji-container{
+  /* .emoji-container{
     display: grid;
     grid-template-columns: repeat(4 1fr);
     grid-gap: 1rem;
-  }
+  } */
   
   .icon {
     font-size: 4rem;
